@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the SGPC updates feature.
+ */
+
+include_once 'sgpc_updates.features.inc';
