@@ -1,0 +1,13 @@
+diff --git a/modules/cart/commerce_cart.module b/modules/cart/commerce_cart.module
+index 29b4de71c0..94174c368c 100644
+--- a/modules/cart/commerce_cart.module
++++ b/modules/cart/commerce_cart.module
+@@ -1160,7 +1160,7 @@ function commerce_cart_order_refresh($order) {
+  *
+  * @see commerce_cart_entity_property_info_alter()
+  */
+-function commerce_cart_get_properties($data = FALSE, array $options, $name) {
++function commerce_cart_get_properties($data, array $options, $name) {
+   global $user;
+
+   switch ($name) {
